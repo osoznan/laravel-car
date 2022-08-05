@@ -8,7 +8,6 @@ return [
         'Lexus' => [
             'ES',
             'GX',
-            'Hello'
         ],
         'Toyota' => [
             'Camry',
