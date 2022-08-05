@@ -7,7 +7,8 @@ return [
     'models' => [
         'Lexus' => [
             'ES',
-            'GX'
+            'GX',
+            'Hello'
         ],
         'Toyota' => [
             'Camry',
