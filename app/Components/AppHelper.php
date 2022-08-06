@@ -69,13 +69,10 @@ class AppHelper {
                 if ($param) {
                     // получение ключей для строковых значений параметра
                     $paramInfo = AppHelper::getFriendlyUrlParams($param, $paramValues);
-
-                    // неверный параметр отсекаем
-                    if (!$paramInfo) {
-                        break;
+                    
+                    if ($paramInfo) {
+                        $result[$paramInfo['name']] = $paramInfo;
                     }
-
-                    $result[$paramInfo['name']] = $paramInfo;
                 }
             }
         }
